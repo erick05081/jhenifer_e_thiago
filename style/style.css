@@ -95,19 +95,3 @@ hr {
   object-fit: cover;
   border-radius: 15px;
 }
-
-/* ----------------------------- */
-/* MEDIA QUERY PARA DESKTOP */
-/* ----------------------------- */
-
-@media (min-width: 768px) {
-  .main {
-    max-width: 768px; /* limita a largura em desktop */
-    margin: 0 auto; /* centraliza o conteúdo */
-  }
-
-  .carrossel {
-    width: 80%; /* ocupa 80% da largura da tela */
-    max-width: 900px;
-  }
-}
