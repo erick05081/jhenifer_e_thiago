@@ -1,5 +1,5 @@
 function atualizarContador() {
-  const dataFinal = new Date("2025-09-21T00:00:00"); // Data alvo
+  const dataFinal = new Date("2025-09-21T11:00:00"); // Data alvo
   const agora = new Date();
   const diferencaEmMilissegundos = dataFinal - agora;
 
@@ -43,3 +43,4 @@ setInterval(atualizarContador, 1000);
 
 // Chama a função imediatamente para exibir o valor assim que a página carregar
 atualizarContador();
+
